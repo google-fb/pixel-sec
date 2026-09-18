@@ -24,8 +24,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
       - name: Install
-        run: npm install
+        run: |
+          rm -f package-lock.json
+          npm install
       - name: Build
         run: npm run build
         env:
