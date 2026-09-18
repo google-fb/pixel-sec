@@ -1,0 +1,5 @@
+node_modules
+dist
+.playwright-mcp
+agent-tools
+.DS_Store
