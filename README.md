@@ -52,7 +52,7 @@ npm run lint      # oxlint 靜態檢查
 
 推送到 `main` 後，GitHub Actions 會自動建置並部署到 GitHub Pages。
 
-## 🛠️ 技術梯
+## 🛠️ 技術棧
 
 - [Vite](https://vite.dev/) + [React 19](https://react.dev/) + TypeScript
 - [Tailwind CSS v4](https://tailwindcss.com/)（`@tailwindcss/vite`）
